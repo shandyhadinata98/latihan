@@ -14,7 +14,8 @@ li a {
   display: block;
   color: #f4ece6;
   text-align: center;
-  padding: 16px 16px;
+  padding-top: 26px;
+  padding-left: 40px;
   text-decoration: none;
 }
 
@@ -22,6 +23,8 @@ li p {
   display: block;
   color: #f4ece6;
   text-align: center;
-  padding: 16px 10px 0px 10px;
+  padding-left: 28px;
+  padding-top: 26px;
+  padding-bottom: 10px;
   text-decoration: none;
 }

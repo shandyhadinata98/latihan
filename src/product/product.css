@@ -1,0 +1,19 @@
+.title-detail{
+  margin-top: 45px;
+  margin-left: 28px;
+  margin-bottom: 41px;
+  font-size: 16px;
+}
+
+.image-detail{
+  margin-left: 28px;
+  width: 612px;
+  height: 327px;
+}
+
+.price-detail{
+  color: #d8690b;
+  margin-left: 28px;
+  margin-top: 38px;
+  font-size: 26px;
+}

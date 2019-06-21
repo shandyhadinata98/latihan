@@ -1,19 +1,32 @@
-import React from 'react'
-import './box.css'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./box.css";
 
-const Box = () => {
-  return(
-    <div className="card">
-      <div className="header">
-      <img src={"https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=500"} alt={"Avatar"}/>
+const Box = props => {
+  const { data, title, price, img } = props;
+
+  return (
+    <NavLink
+      className="myBox"
+      to={{
+        pathname: `/detail/` + data,
+        aboutProps: { data: data, title: title, price: price, img: img }
+      }}
+    >
+      <div className="card">
+        <div className="header">
+          <img src={img} alt={"Avatar"} />
+        </div>
+        <div className="container">
+          <p>{title}</p>
+
+          <div className="price">
+            <p>{price}</p>
+          </div>
+        </div>
       </div>
-      <div className="container">
-        <h5>product title</h5> 
-        <p>10000</p> 
-      </div>
-    </div>
-  
-  )
-}
+    </NavLink>
+  );
+};
 
 export default Box;

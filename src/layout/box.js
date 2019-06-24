@@ -3,16 +3,10 @@ import { NavLink } from "react-router-dom";
 import "./box.css";
 
 const Box = props => {
-  const { data, title, price, img } = props;
+  const { id, title, price, img } = props;
 
   return (
-    <NavLink
-      className="myBox"
-      to={{
-        pathname: `/detail/` + data,
-        aboutProps: { data: data, title: title, price: price, img: img }
-      }}
-    >
+    <NavLink className="myBox" to={{ pathname: `/detail/` + id }}>
       <div className="card">
         <div className="header">
           <img src={img} alt={title} />

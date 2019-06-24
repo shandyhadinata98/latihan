@@ -12,7 +12,7 @@ const RenderProduct = props => {
       return (
         <>
           <Box
-            data={data.id}
+            id={data.id}
             title={data.productName}
             price={data.productPrice}
             img={data.productImage}

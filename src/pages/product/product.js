@@ -17,7 +17,6 @@ const ProductDetail = props => {
       <div className="title-detail">
         <p>{data.productName}</p>
       </div>
-
       <div>
         <img
           className="image-detail"
@@ -25,7 +24,6 @@ const ProductDetail = props => {
           alt={data.productName}
         />
       </div>
-
       <div className="price-detail">
         <p>{data.productPrice}</p>
       </div>

@@ -4,7 +4,6 @@ import "./box.css";
 
 const Box = props => {
   const { id, title, price, img } = props;
-
   return (
     <NavLink className="myBox" to={{ pathname: `/detail/` + id }}>
       <div className="card">

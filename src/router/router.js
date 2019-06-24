@@ -1,10 +1,9 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import Home from "../home/index";
-import ProductDetail from "../product/index";
+import Home from "../pages/home/home";
+import ProductDetail from "../pages/product/product";
 
 const MyRouter = () => {
-  
   return (
     <Switch>
       <Route exact path="/" component={Home} />

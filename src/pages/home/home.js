@@ -1,7 +1,7 @@
 import React from "react";
 import { Col } from "reactstrap";
-import CustomButton from "../layout/button";
-import Box from "../layout/box";
+import CustomButton from "../../components/button/button";
+import Box from "../../components/box/box";
 import "./home.css";
 
 const RenderProduct = props => {

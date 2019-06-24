@@ -15,7 +15,7 @@ const Box = props => {
     >
       <div className="card">
         <div className="header">
-          <img src={img} alt={"Avatar"} />
+          <img src={img} alt={title} />
         </div>
         <div className="container">
           <p>{title}</p>

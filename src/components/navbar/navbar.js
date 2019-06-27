@@ -6,10 +6,10 @@ const NavBar = () => {
   return (
     <ul>
       <li>
-        <p>SIMPLE APP </p>
+        <p>SIMPLE Zoro APP </p>
       </li>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/">Zoro</NavLink>
       </li>
     </ul>
   );

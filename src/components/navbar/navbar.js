@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <ul>
       <li>
-        <p>SIMPLE CATALOG APP </p>
+        <p>SIMPLE APP </p>
       </li>
       <li>
         <NavLink to="/">Home</NavLink>
